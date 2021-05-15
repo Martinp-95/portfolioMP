@@ -32,11 +32,11 @@ var span = document.getElementsByClassName("close")[0];
       modalFooter.innerHTML = `Portfolio`;
     }else if(nom == "Everis") {
       titreHeader.innerHTML = `Conférence ${nom}`;
-      modalBody.innerHTML = `<img style="width: 90%; height: 90%;" src="/public/img/Conférence_Everis.png" alt="conference" />`;
+      modalBody.innerHTML = `<img style="width: 90%; height: 90%;" src="public/img/Conférence_Everis.png" alt="conference" />`;
       modalFooter.innerHTML = `Portfolio`;
     }else if(nom == "ReactNative") {
       titreHeader.innerHTML = `Formation ${nom}`;
-      modalBody.innerHTML = `<img style="width: 100%; height: 100%;" src="../img/formation_ReactNative.png" alt="formation" />`;
+      modalBody.innerHTML = `<img style="width: 100%; height: 100%;" src="public/img/formation_ReactNative.png" alt="formation" />`;
       modalFooter.innerHTML = `Portfolio`;
     }else if(nom == "NodeJs") {
       titreHeader.innerHTML = `Formation ${nom}`;
