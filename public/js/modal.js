@@ -24,7 +24,7 @@ var span = document.getElementsByClassName("close")[0];
           modalFooter.innerHTML =`Lien: <a id="lienModal" href="https://www.etnic.be/" target="_blank">ETNIC</a>`
     }else if(nom == "Cognizant") {
       titreHeader.innerHTML = `Conférence ${nom}`;
-      modalBody.innerHTML = `<img style="width: 100%; height: 100%;" src="../img/Conférence_Cognizant.PNG" alt="conference" />`;
+      modalBody.innerHTML = `<img style="width: 100%; height: 100%;" src="public/img/Conférence_Cognizant.PNG" alt="conference" />`;
       modalFooter.innerHTML = `Portfolio`;
     }else if(nom == "Efficy") {
       titreHeader.innerHTML = `Conférence ${nom}`;
