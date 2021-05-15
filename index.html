@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Portfolio - Perdaens Martin</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="public/css/styles.css" rel="stylesheet" />
+        <link href="public/css/modal.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Perdaens Martin</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="public/img/profile.jpg" alt="profile" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Expérience</a></li>-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Compétences/Projets</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Intérets</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cv">Curriculum Vitae</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Perdaens
+                        <span class="text-primary">Martin</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        <!--3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·-->
+                        <i class="fa fa-envelope"></i> <a href="mailto:martin.perdaens@hotmail.com">martin.perdaens@hotmail.com</a> | 
+                        <i class="fa fa-mobile"></i> 0470/07 31 11
+                    </div>
+                    <p class="lead mb-5">
+                        <p>Je m'appele Martin Perdaens, je suis née le 28 Décembre 1995 en Belgique, j'ai 25 ans</p>
+                        <p>Je suis une personne qui aime apprenndre et essayer de nouvelles choses.
+                            J'ai déjà travailler en équipe sur plusieurs projets.</p>
+                        <p>Le faites d'avoir un diplôme en automatique et en informatique, me permet d'avoir une meilleur compréhension
+                            et de triuver plus facilement des solutions à différents problèmes.</p>
+                        <h3 id="one"> Je suis Automaticien, Développeur</h3>
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header"><h2 id="titreHeader"></h2><span class="close">&times;</span></div>
+                    <div class="modal-body" id="modal-body"></div>
+                    <div class="modal-footer" id="modalFooter"></div>
+                </div>
+            </div>
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">EPHEC</h3>
+                            <div class="subheading mb-3">Bachelier en Technologie Informatique</div>
+                            <div class="subheading">Stage: ETNIC <button id="etnic" onclick="InformationSoc('ETNIC')">
+                                <i class="fas fa-question-circle"></i></button></div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Septembre 2019 - En cours</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">ISAT</h3>
+                            <div class="subheading mb-3">Bachelier en Automatisation</div>
+                            <div class="subheading">Stage: Krones belgique <button id="krones" onclick="InformationSoc('Krones Belgique')">
+                                <i class="fas fa-question-circle"></i></button></div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Septembre 2016 - Juin 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">ECAM</h3>
+                            <div class="subheading mb-3">Ingénieur Industriel</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Septembre 2014 - Juin 2016</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Compétences/Projets</h2>
+                    <div class="subheading mb-3">Langage de programmation et Outils</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Projet</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Adaptation du jeux "EMBOUTEILLAGE" en python
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Création d'un site web en html/css/js/node js
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Création de plusieurs Bots discord en node js
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Réalisation d'une aplication "HelpRecover" d'aide en react native
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="portfolio">
+                <div class="resume-section-content">
+                    <h2 id="test" class="mb-5">Portfolio</h2>
+                    <table class="table table-bordered table-striped">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Thème</th>
+                            <th scope="col">Type d'activité</th>
+                            <th scope="col">Lieu</th>
+                            <th scope="col">Dates</th>
+                            <th scope="col">Heures valorisées</th>
+                            <th scope="col">Heures réelles</th>
+                            <th scope="col">Preuves</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr><th scope="col">1</th>
+                                <td>Formation React Native</td><td>Formation</td><td>Openclassrooms</td><td>28/09/2020	
+                                - </td><td>10h</td><td>30h</td><td><button onclick="InformationSoc('ReactNative')">
+                                    <i class="fas fa-info-circle" style='font-size:50px'></i></button></i></td></tr> 
+                            <tr><th scope="col">2</th>
+                                <td>Formation Node.js, Express et MongoDB</td><td>Formation</td><td>Openclassrooms</td><td>03/05/2021		
+                                - </td><td>10h</td><td>10h</td><td><button onclick="InformationSoc('NodeJs')">
+                                    <i class="fas fa-info-circle" style='font-size:50px'></i></button></td></tr>
+                            <tr><th scope="col">3</th>
+                                <td>Formation JAVA</td><td>Formation</td><td>Openclassrooms</td><td>27/09/2019			
+                                - </td><td>10h</td><td>40h</td><td><button onclick="InformationSoc('Java')">
+                                    <i class="fas fa-info-circle" style='font-size:50px'></i></button></td></tr>
+                            <tr><th scope="col">4</th>
+                                <td>Conférence Cognizant</td><td>Conférence</td><td>???</td><td>09/02/2021			
+                                </td><td>1h</td><td>1h</td><td><button onclick="InformationSoc('Cognizant')">
+                                    <i  class="fas fa-info-circle" style='font-size:50px'></i></button></td></tr> 
+                            <tr><th scope="col">5</th>
+                                <td>Conférence Efficy</td><td>Conférence</td><td>???</td><td>23/02/2021			
+                                </td><td>1h</td><td>1h</td><td><button onclick="InformationSoc('Efficy')">
+                                    <i class="fas fa-info-circle" style='font-size:50px'></i></button></td></tr>   
+                            <tr><th scope="col">6</th>
+                                <td>Conférence Everis</td><td>Conférence</td><td>???</td><td>23/02/2021			
+                                </td><td>1h</td><td>1h</td><td><button onclick="InformationSoc('Everis')">
+                                    <i class="fas fa-info-circle" style='font-size:50px'></i></button></td></tr>
+                            <tr><th scope="col">7</th>
+                                <td>Bot Discord</td><td>Projet </td><td>Chez moi</td><td>20/10/2020			
+                                - </td><td>10h</td><td>80h</td><td><button onclick="InformationSoc('Bot Discord')">
+                                    <i class="fas fa-info-circle" style='font-size:50px'></i></button></td></tr>
+                            <tr><th scope="col">8</th>
+                                <td>Site web</td><td>Projet </td><td>Chez moi</td><td>Octobre 2020 -			
+                                </td><td>10h</td><td>50h</td><td><button onclick="InformationSoc('Site Web')">
+                                    <i class="fas fa-info-circle" style='font-size:50px'></i></button></i></td></tr>                                               
+                        </tbody>
+            
+                      </table>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- cv-->
+            <section class="resume-section" id="cv">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Curriculum Vitae</h2>
+                    Télécharger mon cv: <a href="public/doc/CV martin perdaens.pdf" download="public/doc/CV Martin Perdaens">ICI</a>
+                    <img class="class_cv"
+                    src="public/img/CV-martin-perdaens.jpg"
+                    alt="CV Martin Perdaens">
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="public/js/scripts.js"></script>
+        <script src="public/js/form.js"></script>
+        <script src="public/js/modal.js"></script>
+    </body>
+</html>
