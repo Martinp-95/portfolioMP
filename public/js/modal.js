@@ -32,7 +32,7 @@ var span = document.getElementsByClassName("close")[0];
       modalFooter.innerHTML = `Portfolio`;
     }else if(nom == "Everis") {
       titreHeader.innerHTML = `Conférence ${nom}`;
-      modalBody.innerHTML = `<img style="width: 90%; height: 90%;" src="public/img/Conférence_Everis.png" alt="conference" />`;
+      modalBody.innerHTML = `<img style="width: 90%; height: 90%;" src="/public/img/Conférence_Everis.png" alt="conference" />`;
       modalFooter.innerHTML = `Portfolio`;
     }else if(nom == "ReactNative") {
       titreHeader.innerHTML = `Formation ${nom}`;
