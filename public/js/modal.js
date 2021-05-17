@@ -68,9 +68,17 @@ var span = document.getElementsByClassName("close")[0];
       titreHeader.innerHTML = `Projet ${nom}`;
       modalBody.innerHTML = `Lien vers le répertoire <a href="https://github.com/Martinp-95/RushHour" target="_blank">Github</a>
       <hr size=2 align=center width="100%">
-      <img style="width: 100%; height: 100%;" src="public/img/rushhour_accueil.png" alt="projet" />
-      <hr size=2 align=center width="100%">
-      <img style="width: 100%; height: 100%;" src="public/img/rushhour_niveau1.png" alt="projet" />`;
+      <div class="row">
+  <div class="column">
+  <img style="width: 100%; height: 100%;" src="public/img/rushhour_accueil.png" 
+  onclick="openModal();currentSlide(1)" class="hover-shadow" alt="projet" />
+  </div>
+  <div class="column">
+    <img style="width: 100%; height: 100%;" src="public/img/rushhour_niveau1.png" alt="projet"
+     onclick="openModal();currentSlide(2)" class="hover-shadow"/>
+  </div>
+  </div>
+      <hr size=2 align=center width="100%">`
       modalFooter.innerHTML = `Portfolio`;
     }
 }
