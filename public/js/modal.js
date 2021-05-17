@@ -52,7 +52,7 @@ var span = document.getElementsByClassName("close")[0];
       modalFooter.innerHTML = `Portfolio`;
     }else{
       titreHeader.innerHTML = `Projet ${nom}`;
-      modalBody.innerHTML = `Lien ver le répertoire <a href="https://www.etnic.be/" target="_blank">Github</a>
+      modalBody.innerHTML = `Lien ver le répertoire <a href="https://github.com/Martinp-95/RushHour" target="_blank">Github</a>
       <img style="width: 100%; height: 100%;" src="public/img/rushhour_accueil.png" alt="projet" />
       <HR size=2 align=center width="100%"
       <img style="width: 100%; height: 100%;" src="public/img/rushhour_niveau1.png" alt="projet" />`;
