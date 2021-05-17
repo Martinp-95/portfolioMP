@@ -22,7 +22,21 @@ var span = document.getElementsByClassName("close")[0];
           de plus de 320 collaborateurs nous permet de proposer une offre de services de qualité et de contribuer 
           au développement d’un service public moderne et efficace.`
           modalFooter.innerHTML =`Lien: <a id="lienModal" href="https://www.etnic.be/" target="_blank">ETNIC</a>`
-    }else if(nom == "Cognizant") {
+    }else if(nom == "Krones Belgique"){
+      titreHeader.innerHTML = nom;
+      modalBody.innerHTML = `Krones est une entreprise allemande productrice de lignes pour l'embouteillage 
+      (soutirage) et le conditionnement d'aliments liquides et boissons, produits pharmaceutiques,
+      cosmétiques et chimiques dans des bouteilles plastiques (en PET), en verre et en canettes.
+      L'entreprise fabrique des machines d'étirage-soufflage pour la fabrication de bouteilles PET,
+      des lignes d'embouteillage, des étiqueteuses, des laveuses de bouteilles, des pasteurisateurs,
+      des dispositifs de contrôle, des machines à emballer et des palettiseurs. Ceci est complété par
+      un système de flux de matières (logistique) et de processus pour la production de boissons 
+      (brasseries, laiteries et siroperies). Par ailleurs, des projets complets de fabrication d'usine
+      ont été réalisés dans l'industrie des boissons.
+      Elle fait partie du MDAX.`
+      modalFooter.innerHTML = `Lien: <a id="lienModal" href="https://www.krones.com/en/index.php" target="_blank">Krones Belgique</a>`
+    }
+    else if(nom == "Cognizant") {
       titreHeader.innerHTML = `Conférence ${nom}`;
       modalBody.innerHTML = `<img style="width: 100%; height: 100%;" src="public/img/Conference_Cognizant.png" alt="conference" />`;
       modalFooter.innerHTML = `Portfolio`;
