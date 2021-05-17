@@ -46,19 +46,17 @@ var span = document.getElementsByClassName("close")[0];
       titreHeader.innerHTML = `Formation ${nom}`;
       modalBody.innerHTML = `<img style="width: 100%; height: 100%;" src="public/img/formation_Java.png" alt="formation" />`;
       modalFooter.innerHTML = `Portfolio`;
+    }else if(nom == "BotDiscord") {
+      titreHeader.innerHTML = `Projet ${nom}`;
+      modalBody.innerHTML = `<img style="width: 100%; height: 100%;" src="public/img/bot_discord.png" alt="projet" />`;
+      modalFooter.innerHTML = `Portfolio`;
     }else{
-        titreHeader.innerHTML = nom;
-        modalBody.innerHTML = `Krones est une entreprise allemande productrice de lignes pour l'embouteillage 
-        (soutirage) et le conditionnement d'aliments liquides et boissons, produits pharmaceutiques,
-        cosmétiques et chimiques dans des bouteilles plastiques (en PET), en verre et en canettes.
-        L'entreprise fabrique des machines d'étirage-soufflage pour la fabrication de bouteilles PET,
-        des lignes d'embouteillage, des étiqueteuses, des laveuses de bouteilles, des pasteurisateurs,
-        des dispositifs de contrôle, des machines à emballer et des palettiseurs. Ceci est complété par
-        un système de flux de matières (logistique) et de processus pour la production de boissons 
-        (brasseries, laiteries et siroperies). Par ailleurs, des projets complets de fabrication d'usine
-        ont été réalisés dans l'industrie des boissons.
-        Elle fait partie du MDAX.`
-        modalFooter.innerHTML = `Lien: <a id="lienModal" href="https://www.krones.com/en/index.php" target="_blank">Krones Belgique</a>`
+      titreHeader.innerHTML = `Projet ${nom}`;
+      modalBody.innerHTML = `Lien ver le répertoire <a href="https://www.etnic.be/" target="_blank">Github</a>
+      <img style="width: 100%; height: 100%;" src="public/img/rushhour_accueil.png" alt="projet" />
+      <HR size=2 align=center width="100%"
+      <img style="width: 100%; height: 100%;" src="public/img/rushhour_niveau1.png" alt="projet" />`;
+      modalFooter.innerHTML = `Portfolio`;
     }
 }
 
