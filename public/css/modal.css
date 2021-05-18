@@ -91,3 +91,10 @@
     float: left;
     width: 50%;
   }
+
+  .picture-left{
+    float: left;
+}
+.paragraph-right{
+  font-size: 1.1em;
+}

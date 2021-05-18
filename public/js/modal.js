@@ -16,24 +16,54 @@ var span = document.getElementsByClassName("close")[0];
 
     if(nom == "ETNIC"){
         titreHeader.innerHTML = nom;
-        modalBody.innerHTML = `Entreprise publique chargée de la fourniture de matériel
-         et de services informatiques pour la Fédération Wallonie-Bruxelles,
-          l’ETNIC rassemble divers professionnels IT et administratifs. La grande complémentarité de notre équipe
-          de plus de 320 collaborateurs nous permet de proposer une offre de services de qualité et de contribuer 
-          au développement d’un service public moderne et efficace.`
+        modalBody.innerHTML = `
+        <div class="div-categoryContainer">
+        <img class="picture-left" src="public/img/logo_etnic.png" alt="etnic" />
+        <div class="paragraph-right">
+        <p>L’ETNIC, l’Entreprise des Technologies Numériques de l’Information et de la Communication, 
+        est le partenaire informatique de la Fédération Wallonie-Bruxelles. Elle y assure la conception,
+        le développement, la gestion et le suivi des solutions informatiques pour la Fédération Wallonie-Bruxelles
+        via différents services : le développement de nouvelles applications, le support informatique via le service desk,
+        la fourniture de l’équipement informatique, la gestion du réseau et de l’hébergement ainsi que la protection des données.</p>
+        <p>
+        Le stage peut être décrit comme étant une mission de développeur amené à travailler sur un module spécifique au sein
+        d’une interface d’envoi de communications.
+        La mission prioritaire lors du stage est la mise en place de l’écran d’accueil et des communications de type message.
+        Mon rôle est de développer la partie frontend, les services et le backend de ce module. A l’issue du stage, 
+        l’application doit être reprise en interne par les équipes de l’Etnic.</p>
+        <p>Les types de tâches à réaliser lors du stage furent
+        l'analyse des exigences fonctionnelles du module afin de réaliser le diagramme « Domain Model »,
+        la réalisation du « Use Case » du module,
+        la prise de connaissance du backlog  réalisé par le Product Owner,
+        l'elaboration du Planning Poker en utilisant la suite de Fibonacci,
+        la réalisation des différents Sprint Agile (6) élaborés selon la méthode Scrum,
+        les présentations finales à la fin de chaque sprint (Sprint Review),
+        les corrections en fonction du feed-back reçu lors des présentations.
+        </p>
+        <p>Lors de cette éxpérience, j'ai pu mettre en pratique la méthode Agile Scrum.</p>
+        </div></div>`
+
           modalFooter.innerHTML =`Lien: <a id="lienModal" href="https://www.etnic.be/" target="_blank">ETNIC</a>`
     }else if(nom == "Krones Belgique"){
       titreHeader.innerHTML = nom;
-      modalBody.innerHTML = `Krones est une entreprise allemande productrice de lignes pour l'embouteillage 
+      modalBody.innerHTML = `
+      <div class="div-categoryContainer">
+      <img class="picture-left" src="public/img/krones.jpg" alt="krones" />
+      <div class="paragraph-right">
+      <p>Krones est une entreprise allemande productrice de lignes pour l'embouteillage 
       (soutirage) et le conditionnement d'aliments liquides et boissons, produits pharmaceutiques,
-      cosmétiques et chimiques dans des bouteilles plastiques (en PET), en verre et en canettes.
-      L'entreprise fabrique des machines d'étirage-soufflage pour la fabrication de bouteilles PET,
-      des lignes d'embouteillage, des étiqueteuses, des laveuses de bouteilles, des pasteurisateurs,
-      des dispositifs de contrôle, des machines à emballer et des palettiseurs. Ceci est complété par
-      un système de flux de matières (logistique) et de processus pour la production de boissons 
-      (brasseries, laiteries et siroperies). Par ailleurs, des projets complets de fabrication d'usine
-      ont été réalisés dans l'industrie des boissons.
-      Elle fait partie du MDAX.`
+      cosmétiques et chimiques dans des bouteilles plastiques (en PET), en verre et en canettes.</p>
+      <p>Les machines Krones travaillent avec des automates Siemens.</p>
+
+      <p>L’objectif du stage consistait, après une période d'observation et de découverte du processus d'installation d'une 
+      ligne d'embouteillage au sein de la brasserie de Chimay,à réaliser le suivi de mise en service d’une étiqueteuse
+      au sein de la brasserie Lefebvre. Le contenu de la mission consistait à pouvoir mettre en service
+      et paramétrer cette étiqueteuse, ainsi qu' intervenir avec efficacité sur cette machine  de résoudre les problèmes qui 
+      s’y présenteraient.
+      J'y ai également réalisé un code en ladder afin de détecter si le bouchon le mécanique avait bien été refermé.
+      J'ai pu m'y former à la compréhension d'un processus industriel, l’approche analytique et le travail en autonomie.</p>
+      <p> J'ai réalisé mon TFE sur ce sujet.</p>
+      </div></div>`
       modalFooter.innerHTML = `Lien: <a id="lienModal" href="https://www.krones.com/en/index.php" target="_blank">Krones Belgique</a>`
     }
     else if(nom == "Cognizant") {
