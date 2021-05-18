@@ -65,6 +65,23 @@ body {
 #imagehome{
   width: 100%;
 }
+#nomPersonne{
+  padding: 50px 30px 50px 30px;
+}
+.text {
+  z-index: 1;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: beige;
+  width: 70%;
+  font-size: 50px;
+  font-family: "Segoe UI", "Helvetica Neue";
+
+}
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
