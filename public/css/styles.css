@@ -30,6 +30,12 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -56,36 +62,8 @@ body {
   text-align: left;
   background-color: #fff;
 }
-#home{
-  background-image: url("../img/home.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.text {
-  color: beige;
-  font-size: 5em;
-  text-align: center;
-  margin-top: -20%;
-  margin-left: 20%;
-  width: 60%;
-  padding: 10px;
-}
-#formation{
-  color: beige;
-  font-size: 0.5em;
-  font-family: sans-serif;
-}
-#titreMoi{
-  font-family: "Segoe UI","Helvetica Neue";
-  color: black;
-  font-size: 5em;
-  width: 60%;
-  padding: 10px;
-
-}
-#cv{
-  color: red;
-  text-decoration: underline;
+#imagehome{
+  width: 100%;
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -9925,6 +9903,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @media print {
+  *,
 *::before,
 *::after {
     text-shadow: none !important;
