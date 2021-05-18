@@ -80,7 +80,24 @@ body {
   width: 70%;
   font-size: 50px;
   font-family: "Segoe UI", "Helvetica Neue";
-
+}
+#infoProjet{
+  margin-right: 150px;
+}
+#infoProjet2{
+  margin-right: 318px;
+}
+#infoProjet3{
+  margin-right: 346px;
+}
+#infoProjet4{
+  margin-right: 393px;
+}
+#infoProjet4{
+  margin-right: 393px;
+}
+#infoProjet5{
+  margin-right: 220px;
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
