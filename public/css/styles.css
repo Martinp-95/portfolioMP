@@ -81,23 +81,14 @@ body {
   font-size: 50px;
   font-family: "Segoe UI", "Helvetica Neue";
 }
-#infoProjet{
-  margin-right: 150px;
+#nomprojet{
+  background-color: white;
+  float: left;
 }
-#infoProjet2{
-  margin-right: 318px;
-}
-#infoProjet3{
-  margin-right: 346px;
-}
-#infoProjet4{
-  margin-right: 393px;
-}
-#infoProjet4{
-  margin-right: 393px;
-}
-#infoProjet5{
-  margin-right: 220px;
+#nomlangange{
+  background-color: white;
+  padding-left: 60%;
+
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
